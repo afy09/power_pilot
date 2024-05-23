@@ -272,7 +272,7 @@
                   <h4 class="header-title">Total battery power usage history per month</h4>
                 </div>
 
-                <div dir="ltr">
+                <div dir="ltr" style="height: 50px">
                    <div
                     id="high-performing-product"
                     class="apex-charts"
