@@ -86,6 +86,9 @@
                                 <button class="btn btn-outline-primary" type="submit"><i class="uil-apple"></i> Apple </button>
                                 <button class="btn btn-outline-primary" type="submit"><i class="uil-twitter"></i> Twitter </button>
                             </div>
+                            <div class="mb-2 mb-0 text-center">
+                                <button class="btn btn-outline-primary" type="submit"><a href="/register">Sign Up</a></button>
+                            </div>
 
                         </form>
                     </div> <!-- end card-body -->

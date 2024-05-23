@@ -24,10 +24,9 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
-
-// Route::get('/dashboard', function () {
-//     return view('dashboard');
-// })->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/register', function () {
+    return view('auth.register');
+});
 
 route::get('/home',[HomeController::class,'index'])->middleware('auth')->name('home');
 

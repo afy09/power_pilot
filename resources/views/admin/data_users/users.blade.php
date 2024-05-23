@@ -203,6 +203,7 @@
                         <th>No</th>                        
                         <th>Name</th>
                         <th>Email</th>
+                        <th>Level</th>
                         <th style="width: 125px;">Action</th>
                     </tr>
                 </thead>
@@ -214,7 +215,8 @@
                         <td>{{$user->name}}</td>
                         <td>
                             <h5 class="my-0">{{$user->email}}</h5>                            
-                        </td>                        
+                        </td>
+                        <td>{{$user->level}}</td>                        
                         <td>
                             <form onsubmit="return confirm('Are you sure ?');" action="{{ route('users.destroy', $user->id) }}" method="POST">
                                 <a href="{{route('users.details')}}/{{$user->id}}" class="btn btn-primary"><i class="mdi mdi-home"></i></a>
